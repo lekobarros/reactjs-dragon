@@ -1,7 +1,7 @@
 # South Dragon
 
 ## Front-end Technologies
-- O projeto está rodando em React.js, Vitest e TypeScript
+- O projeto está rodando em React.js, Vite e TypeScript
 - MUI como Component Framework
 - Axios para trabalhar com a requisições de API
 - Redux para controle de dados compartilhados / Store
