@@ -1,0 +1,5 @@
+const DRAGON_API_BASE_URL = import.meta.env.VITE_DRAGON_ENDPOINT;
+
+export {
+  DRAGON_API_BASE_URL
+}
