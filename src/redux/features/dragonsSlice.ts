@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 // Types
-import type { Dragon } from "@/types/dragon";
+import type { Dragon } from "@/types/Dragon";
 
 type DragonState = {
   list: Dragon[];

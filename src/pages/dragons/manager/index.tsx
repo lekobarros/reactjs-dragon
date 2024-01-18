@@ -1,6 +1,3 @@
-
-'use client';
-
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useForm } from "react-hook-form"
@@ -30,7 +27,7 @@ import isAuth from "@/components/isAuth";
 import SaveIcon from '@mui/icons-material/Save';
 
 // Types
-import type { Dragon } from '@/types/dragon';
+import type { Dragon } from '@/types/Dragon';
 
 interface IFormInput {
   name: string,

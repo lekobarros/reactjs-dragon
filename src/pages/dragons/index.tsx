@@ -25,7 +25,7 @@ import EditIcon from '@mui/icons-material/Edit'
 import VisibilityIcon from '@mui/icons-material/Visibility';
 
 // Types
-import type { Dragon } from '@/types/dragon';
+import type { Dragon } from '@/types/Dragon';
 
 const Dragon = () => {
   const dragons = useAppSelector(state => state.dragonsReducer.list);

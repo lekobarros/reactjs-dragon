@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import type { Dragon } from '@/types/dragon';
+import type { Dragon } from '@/types/Dragon';
 import getDragonById from '@/actions/getDragonById';
 
 // Components

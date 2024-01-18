@@ -1,7 +1,7 @@
 import dragonAPI from "@/services/dragonAPI";
 
 // Types
-import type { Dragon } from "@/types/dragon";
+import type { Dragon } from "@/types/Dragon";
 
 const createDragon = async (dragon: Dragon) => {
   try {

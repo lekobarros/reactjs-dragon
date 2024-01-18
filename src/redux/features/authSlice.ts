@@ -2,15 +2,12 @@
 
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-// import { create } from "zustand";
-
 // Types
 import type { AuthUser } from "@/types/User";
 
 type AuthState = {
   authUser: AuthUser | null;
   userDatabase: AuthUser[];
-  // reset: () => void;
 };
 
 const initialState = {

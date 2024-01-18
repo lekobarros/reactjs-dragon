@@ -19,7 +19,7 @@ import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import deleteDragons from '@/actions/deleteDragons'
 
 // Types
-import type { Dragon } from "@/types/dragon";
+import type { Dragon } from "@/types/Dragon";
 
 type Props = {
   isVisible: boolean,

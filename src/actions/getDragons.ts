@@ -4,7 +4,7 @@ import dragonAPI from "@/services/dragonAPI";
 import { setList } from "@/redux/features/dragonsSlice";
 
 // Types
-import type { Dragon } from "@/types/dragon";
+import type { Dragon } from "@/types/Dragon";
 
 const getDragons = () => async (dispatch: any) => {
   try {

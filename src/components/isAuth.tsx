@@ -3,8 +3,6 @@ import { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useAppSelector } from "@/redux/hooks";
 
-// import { redirect, usePathname } from 'next/navigation'
-
 // Settings
 const loginRouters = ['/login', '/register']
 
