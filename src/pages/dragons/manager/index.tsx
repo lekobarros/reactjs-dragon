@@ -37,9 +37,9 @@ interface IFormInput {
 
 const schema = yup
   .object({
-    name: yup.string().required('Field is required'),
-    histories: yup.string().required('Field is required'),
-    type: yup.string().required('Field is required'),
+    name: yup.string().required('Name is required'),
+    histories: yup.string().required('History is required'),
+    type: yup.string().required('Type is required'),
   })
   .required()
 
