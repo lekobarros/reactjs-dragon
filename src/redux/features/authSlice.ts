@@ -1,5 +1,8 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
+// Datas
+import { mockAuthUserList } from "@/data/User";
+
 // Types
 import type { AuthUser } from "@/types/User";
 
@@ -10,12 +13,7 @@ type AuthState = {
 
 const initialState = {
   authUser: null,
-  userDatabase: [
-    {
-      username: "1",
-      password: "1",
-    },
-  ],
+  userDatabase: mockAuthUserList
 } as AuthState;
 
 export const auth = createSlice({
