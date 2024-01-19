@@ -2,15 +2,16 @@
 
 ## Front-end Technologies
 - O projeto está rodando em React.js, Vite e TypeScript
-- MUI como Component Framework
+- MUI como component de UI Framework
 - Axios para trabalhar com a requisições de API
 - Redux para controle de dados compartilhados / Store
 
-## Pontos Adicionaios
-- Adicionado controle de validação nos form.
-- Prevenção de fechar os modais durante as requisiçoes.
+## Pontos Adicionais
+- Adicionado controle de validação nos Form com `react-hook-form`.
+- Prevenção que o usuário feche o modal durante requisições de API
+- Não apliquei metodologias de CSS como OOCSS ou uso de SASS devido ao MUI possibilitar escrever `css-in-javascript`
 
-## Usuário
+## Usuário Login
 user: 1
 senha: 1
 
