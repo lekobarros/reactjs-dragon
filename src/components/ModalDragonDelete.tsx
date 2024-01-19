@@ -1,6 +1,3 @@
-
-"use client";
-
 import { FC, useState } from 'react';
 import { useAppDispatch, useAppSelector } from "@/redux/hooks"; // use in store
 
