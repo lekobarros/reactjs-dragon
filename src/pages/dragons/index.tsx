@@ -35,7 +35,7 @@ const Dragon = () => {
     dispatch(getDragons()) // Every reload page call again API to refresh data
     setLoading(false)
 
-    return () => clearDragons();
+    return () => dispatch(clearDragons());
   }, []);
 
   // Render
