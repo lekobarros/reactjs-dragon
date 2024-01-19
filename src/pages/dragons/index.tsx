@@ -36,7 +36,7 @@ const Dragon = () => {
   // Call API
   useEffect(() => {
     // Get Dragons
-    if (dragons && !dragons.length) dispatch(getDragons())
+    dispatch(getDragons()) // Every reload page call again API to refresh data
     setLoading(false)
   }, []);
 

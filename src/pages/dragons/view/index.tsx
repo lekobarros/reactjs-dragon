@@ -8,7 +8,7 @@ import getDragonById from '@/actions/getDragonById';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CircularProgress from '@mui/material/CircularProgress';
+import LayoutLoading from '@/components/Layout/Loading';
 import Chip from '@mui/material/Chip';
 import Divider from '@mui/material/Divider';
 import Link from '@mui/material/Link';
@@ -47,13 +47,8 @@ const Dragon = () => {
     return humanDate;
   }
 
-  if (loading) {
-    return (
-      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '12rem' }}>
-        <CircularProgress />
-      </Box>
-    )
-  }
+  // Render
+  if (loading) return <LayoutLoading />
 
   return (
     <>
