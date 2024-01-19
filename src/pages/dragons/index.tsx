@@ -3,6 +3,7 @@ import { useAppDispatch } from "@/redux/hooks";
 
 // Actions
 import getDragons from '@/actions/getDragons'
+import clearDragons from '@/actions/clearDragons'
 
 // Components
 import Breadcrumbs from '@mui/material/Breadcrumbs';
@@ -33,6 +34,8 @@ const Dragon = () => {
     // Get Dragons
     dispatch(getDragons()) // Every reload page call again API to refresh data
     setLoading(false)
+
+    return () => clearDragons();
   }, []);
 
   // Render
